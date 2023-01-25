@@ -2,10 +2,21 @@
 //
 
 #include <iostream>
-
+#include "Define.h"
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    //std::cout << "Hello World!\n";
+
+#ifdef __Main1__
+    int     ncount1 = 0;
+
+#else
+    int     ncount2 = 0;
+
+#endif // __Main1__
+
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
