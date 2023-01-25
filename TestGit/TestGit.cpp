@@ -17,6 +17,11 @@ int main()
 #endif // __Main1__
 
 
+#ifdef __Main2__
+
+#endif
+
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
